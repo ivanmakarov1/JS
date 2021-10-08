@@ -17,7 +17,7 @@ document.querySelector('.out-2').textContent = result2;
 // Создайте две переменные e = 3 и f = 5. Выведите на страницу  в .out-3 результат сложения e + f.
 let e = 3;
 let f = 5;
-let result3 = e+f;
+let result3 = e + f;
 document.querySelector('.out-3').textContent = result3;
 
 // Task 4.

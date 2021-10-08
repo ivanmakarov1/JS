@@ -136,7 +136,9 @@ document.querySelector('.b-15').onclick = t15;
 //По нажатию на кнопку .b-16 выполняется функция t16. Функция получает из .i-16-1 и i-16-2 числа. Выведите в .out-16 сумму данных чисел по нажатию кнопки b-16. Не переводите полученное из input в число!!!!
 
 function t16() {
-    
+    let a16 = document.querySelector('.i-16-1').value;
+    let b16 = document.querySelector('.i-16-2').value;
+    document.querySelector('.out-16').innerHTML = a16 + b16;
 }
 
 document.querySelector('.b-16').onclick = t16;
